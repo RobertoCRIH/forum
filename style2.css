@@ -1,0 +1,92 @@
+body{
+	background-color: #2eff61;
+}
+
+section{
+	border-radius: 50px;
+	background-color: white;
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap:wrap ;
+}
+
+.user{
+	border-radius: 10px;
+	background-color: #9fffb7;
+	width: 250px;
+	margin: 20px;
+}
+
+.user div img{
+	
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100px;
+	border-radius: 50px;
+	border: 4px solid #5902EC;
+}
+.userImage{
+	display: flex;
+	justify-content: center;
+}
+
+.username, .realName, .email, .phone{
+		color:#5902EC;
+		text-align: center;
+}
+
+.username{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.phone{
+	/*font-size: 20px;*/
+	font-weight: bold;
+}
+
+.realName{
+	font-size: 18px;
+}
+
+.email{
+	margin-bottom: 10px;
+}
+
+.workInfo{
+	background-color: #FFFA4D;
+	border-radius: 10px;
+}
+
+p{
+	margin: 0;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: center;
+}
+
+.workCompany{
+	text-align: center;
+	font-size: 15px;
+}
+
+.catchPhrase{
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.loading img{
+	width: 300px;
+}
+
+h1{
+	margin: 20px;
+	border-radius: 50px;
+	background-color: white;
+	padding: 10px;
+	padding-left: 20px;
+}
